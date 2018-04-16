@@ -22,38 +22,48 @@
     margin-right: 60px;
     }
     .content .row{
-        border:2px solid #CBC8CC;
+        
         padding: 5px;
         margin-top: 5px;
         margin-bottom: 5px;
+        border-bottom: 2px #D5D5D5 dashed;
         
     }
     a u{
         
-        color: #FFCDD0;
+        color:	#e7a39e;
     }
-  
+    .nav-link{
+        border-left:2px #D5d5d5 solid;
+        padding-left: 62px;
+        padding-right: 62px;
+
+    }
+    a.nav-item.nav-link.disabled{
+        border-right:2px #D5d5d5 solid;
+    }
+    img{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 </style>
  
     </head>
   <body>
-<nav class="navbar navbar-dark  justify-content-center" style="background-color: #A1ACB2";>
-        <img src="drawing.svg" width="150" height="150" alt="">
+<nav class="navbar navbar-dark  justify-content-center text-color:white" style="background-color: #f66253" ;>
 
-  
+      <a class="nav-item nav-link active text-light" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link text-light" href="#">Features</a>
+      <a class="nav-item nav-link text-light" href="#">Pricing</a>
+      <a class="nav-item nav-link disabled text-light" href="#">Email</a>
 
 </nav>
       
 <div class="container">
     
-     <div class="row">
-        My name is Ranes and I'm a programmer. This is collection of my projects. Some sections may be blank or messed up because I'm currently updating this site.
-    </div>  
+   
     
-    <div class="row">
-        Here are my links: Linkedin, Github, Email
-       
-    </div>
+
     <div class="row ">
           <h3>Websites</h3>
     </div>
